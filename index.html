@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness gym</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+
+        margin: 0px;
+        padding: 0px;
+        background: url('https://wallpapercave.com/wp/wp4699073.jpg');
+        background-repeat: no-repeat;
+        background-size: 1500px 700px;
+
+    }
+
+    .left {
+
+        display: inline-block;
+        /* float : left; */
+        width: 200%;
+        margin: 0px auto;
+        border: 3px ridge black;
+        background-color: black;
+        height: 50px;
+        width: 1500px;
+
+
+    }
+
+    .centre {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+        display: inline-block;
+
+
+    }
+
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 34px 30px;
+        margin: 0px 10px;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: unset;
+
+    }
+
+    .btn {
+        margin: 0px 5px;
+        color: rgb(63, 7, 7);
+        padding: 10px 10px;
+        width: 70px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(123, 38, 235);
+    }
+
+    .container {
+        color: white;
+        position: absolute;
+        display: block;
+        margin: 100px 100px;
+        padding: 100px 100px;
+        width: 33%;
+        border-radius: 5px;
+    }
+
+    .formgroup input {
+        display: block;
+        width: 400px;
+        padding: 9px;
+        margin: 11px auto;
+        border: 2px solid rgb(145, 118, 118);
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+        width: 40%;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About us</a></li>
+                
+
+            </ul>
+            <div class="centre">
+
+
+            </div>
+            <div class="right">
+                <button class="btn">Call </button>
+                <button class="btn">Email </button>
+
+
+            </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym</h1>
+        <form action="noaction.php"></form>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your address">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Contact/Email">
+        </div>
+        <button class="btn">Register </button>
+
+    </div>
+   
+</body>
+
+</html>
